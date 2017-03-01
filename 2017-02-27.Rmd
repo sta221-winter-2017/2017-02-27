@@ -63,15 +63,16 @@ where $s_x$ and $s_y$ are the sample standard deviations of the $x$ and $y$ vari
 It is symmetric in $x$ and $y$. There is not (necessarily) an "input" and an "output" variable. 
 
 \pause 
-$$(r)^2 = R^2 = \frac{SST}{SSR} = 1 - \frac{SSE}{SSR}$$ 
+
+$$(r)^2 = R^2 = \frac{SSR}{SST} = 1 - \frac{SSE}{SST}$$ 
 
 \pause 
 $$-1 \le r \le 1$$
 
 \pause The sample correlation coefficient is only suitable when the relationship is linear, and is susceptible to all the same shortcomings as any regression model.
 
-\pause 
-$$r = b_1\sqrt{\frac{S_{xy}}{S_{xx}}}$$
+\pause CORRECTED!
+$$r = b_1\sqrt{\frac{S_{yy}}{S_{xx}}}$$
 where $b_1$ is the slope estimator with $x$ is "input"...
 
 ## examples
